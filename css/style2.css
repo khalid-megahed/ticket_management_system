@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    padding: 0 ;
+    margin:0 ;
+    font-family:'Josefin Sans', sans-serif;
+       
+}   
+.head{
+    display: flex;
+   justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height: 64px;
+    background-color: rgb(10, 36, 136);
+}
+h2{ 
+    margin-left: 20px;
+}
+.headLift{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin: 3px 20px 0 ;
+    
+}
+h4{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+   margin-top: 3px;
+}
+.headRight{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    color: #fff;
+    margin-right: 10px;
+}
+h5{
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 4px;
+}
+#icon1{
+    width: 40px;
+    color: #fff ;
+   background-color: rgb(183, 174, 174);
+   border-radius: 100px;
+   height: 40px;
+   margin-top: -3px;
+}
+svg{
+    fill:currentColor
+}
+.masters{
+    padding: 0 24px;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: flex-start ;
+}
+.left{
+    width: 100%;
+}
+.chose{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 40px;
+    
+}
+h1{
+    margin: 25px 0;
+    color: rgba(0, 0, 0, 0.778);
+    font-weight: 600;
+
+}
+h6{
+    color: rgba(0, 0, 0, 0.778);
+    font-size: 20px;
+    font-weight: 300;
+}
+.cash{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 25px;
+}
+ .chose input{
+   margin-right: 10px ;
+    width: 25px;
+    height: 25px;
+}
+.Card{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 25px;
+} 
+.Visa{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 25px;
+
+} 
+
+   
+
+.input{ 
+    display: flex;
+   
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.726);
+    margin-left: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+hr{
+    margin: 20px 0;
+   border:  0.1px solid rgba(10, 35, 136, 0.581);
+
+}
+.input input{
+    width: 480px;
+    height: 50px;
+    border-radius: 5px;
+    padding:20px ;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    border: 1px solid  rgba(0, 0, 0, 0.778);;
+}
+.ticket{
+    display: flex;
+    
+}
+.vip{
+    background-color: rgb(65, 202, 50);
+    font-size: 16px;
+    width: 110px;
+    text-align: center;
+    padding: 25px;
+    height: 105px;
+    border-radius: 8px;
+    color: #fff;
+    margin:  0 10px 10px 0;
+}
+.cat22{
+    background-color: rgb(226, 226, 59);
+    font-size: 16px;
+    width: 110px;
+    text-align: center;
+    padding: 25px;
+    height: 105px;
+    border-radius: 8px;
+    color: #fff;
+    margin:  0 10px 10px 0;
+}
+.swimchild{
+    background-color:rgb(226, 226, 59);
+    font-size: 16px;
+    width: 110px;
+    text-align: center;
+    padding: 25px;
+    height: 105px;
+    border-radius: 8px;
+    color: #fff;
+    margin:  0 10px 10px 0;
+    
+}
+
+.hr{
+    margin: 0  0px 0 0;
+    height: 500px;
+    
+}
+.right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Summary{
+    margin-bottom: 100px;
+    margin-left: 20px;
+   
+}
+.right-Bottom{
+    margin-left: 20px;
+    text-align: end;
+    
+}
+.taxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 24px;
+} 
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    
+}
+button{
+    width: 48%;
+    background-color: #fff;
+    color:rgba(0, 0, 255, 0.629); 
+    border: 1px solid rgba(0, 0, 255, 0.556);
+    height: 45px;
+    border-radius: 5px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+
+
+
